@@ -35,8 +35,8 @@ main {
 }
 
 .container {
-  width: 60%; /* se for uma tela menor que 980px vai se adaptar a 70% */
-  max-width: 960px; /* quando chegar em 980px para de aumentar */
+  width: 60%; 
+  max-width: 960px; 
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
   background-color: #fff;
   display: flex;
@@ -80,7 +80,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: #00FFFF	;
+  background-color: #FF7F50;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -106,7 +106,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid #00FFFF	;
+  border: 10px solid #FF7F50;
 }
 
 .container .profile-data .info h1{
@@ -136,20 +136,54 @@ main {
 
 .container .profile-data .repositories ul li a{
   padding: 20px;
-  border: 1px solid grey;  
+  border: 1px solid grey;
   margin: 20px;
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
 }
 
+.repository-item {
+  border: 1px solid grey;
+  margin: 3px;
+  display: block;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+}
+
+
 .container .profile-data .repositories ul li a:hover{
-  background-color: #00FFFF	;
+  background-color:#FF7F50;
   color: #fff
 }
 
 .container .profile-data.hide{
   display: none;
+}
+
+.data-repositories {
+  margin-top: 10px; 
+}
+
+.data-repositories ul li {
+  background-color: #4B3D9F;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.container .profile-data .events {
+  box-shadow: 5px 5px 15px 5px #24292e;
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #bfbfbf ; 
+
+}
+
+.container .profile-data .events ul li {
+  margin: 10px;
+  text-align: center;
 }
 
 @media (max-width: 1280px) {
@@ -193,3 +227,28 @@ main {
     padding: 0;
   }
 }
+
+
+.eventList{
+  line-height:25px;
+}
+
+.repo-name{
+  font-weight: 500;
+}
+
+.details li{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 80px;
+  height: 40px;
+  background-color: #FF7F50;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
