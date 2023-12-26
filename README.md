@@ -1,8 +1,11 @@
-# Projeto feito no Curso Dev-Quest.
+# Projeto GitHub.
 
-# Ferramentas utilizadas
 
 - O projeto está consumindo API do GitHub, assim o usuário pode pesquisar qualquer usuário existente no mesmo, e todos os repositórios e Projetos.
+
+
+
+# Ferramentas utilizadas
 
 <div style="display: inline_block"><br>
     <img alingn="center"alt="Html"src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"><br>
