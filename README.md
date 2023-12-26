@@ -13,5 +13,5 @@
 </div>
 <br>
 <a href="https://uandersonlim.github.io/Projeto-Consumindo-API-do-GIT-HUB-HTML-CSS-JS/">
-<img src="./APi-github.gif">
+<img src="./README/APi-github.gif">
 </a>
